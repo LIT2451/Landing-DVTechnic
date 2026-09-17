@@ -10777,9 +10777,51 @@ Page Title
   border: 2px solid var(--theme-color-white);
   text-align: center;
 }
-.portfolio-details .widget-sidber-contact-box .widget-sidber-contact-btn a:hover {
-  background: transparent;
-  color: var(--theme-color-white);
+/* Clean Corporate Banner Buttons (Classic IT Enterprise - No AI capsule gimmicks) */
+.corp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  line-height: 1.4;
+}
+.corp-btn i {
+  margin-left: 8px;
+  font-size: 13px;
+  transition: transform 0.2s ease;
+}
+.corp-btn-primary {
+  background-color: #0284c7;
+  color: #ffffff !important;
+  border: 1px solid #0284c7;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+}
+.corp-btn-primary:hover {
+  background-color: #0369a1;
+  border-color: #0369a1;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(2, 132, 199, 0.45);
+}
+.corp-btn-primary:hover i {
+  transform: translateX(4px);
+}
+.corp-btn-outline {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.corp-btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+  color: #ffffff !important;
+  transform: translateY(-2px);
 }
 
 /*# sourceMappingURL=style.css.map */
