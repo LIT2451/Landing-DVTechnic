@@ -122,7 +122,7 @@
 					<div class="col-lg-12 text-center">
 						<div class="breadcumb-content">
 							<div class="breadcumb-title">
-								<h4>Our Portfolio</h4>
+								<h4>Our Engineering Portfolio</h4>
 							</div>
 							<ul>
 								<li><a href="index.html">Home</a></li>
@@ -134,169 +134,376 @@
 			</div>
 		</div>
 
-		<!-- Portfolio / Case Studies Section -->
-		<section class="service-section inner-style boxed" style="padding: 90px 0;">
+		<!-- Operational Metrics Bar -->
+		<div class="portfolio-metrics-bar">
 			<div class="auto-container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="sec-title pb-30 text-center">
-							<div class="section-sub-title">
-								<h5 class="sub-title">PROVEN TRACK RECORD</h5>
+				<div class="row g-4">
+					<div class="col-lg-3 col-sm-6">
+						<div class="portfolio-metric-item">
+							<div class="portfolio-metric-icon">
+								<i class="fa-solid fa-layer-group"></i>
 							</div>
-							<div class="section-title">
-								<h1 class="title title-anim">Featured <span>Case Studies</span> &amp; Systems</h1>
+							<div class="portfolio-metric-content">
+								<div class="num">45+</div>
+								<div class="lbl">Enterprise Solutions Delivered</div>
 							</div>
-							<p style="max-width: 700px; margin: 15px auto 0; color: #64748b;">
-								Explore real-world software architectures and telecommunication platforms engineered and maintained by DVTechnic.
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="portfolio-metric-item">
+							<div class="portfolio-metric-icon">
+								<i class="fa-solid fa-shield-halved"></i>
+							</div>
+							<div class="portfolio-metric-content">
+								<div class="num">99.98%</div>
+								<div class="lbl">Average System SLA Reliability</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="portfolio-metric-item">
+							<div class="portfolio-metric-icon">
+								<i class="fa-solid fa-bolt"></i>
+							</div>
+							<div class="portfolio-metric-content">
+								<div class="num">10M+</div>
+								<div class="lbl">Daily CDR &amp; Transactions</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="portfolio-metric-item">
+							<div class="portfolio-metric-icon">
+								<i class="fa-solid fa-earth-americas"></i>
+							</div>
+							<div class="portfolio-metric-content">
+								<div class="num">12+</div>
+								<div class="lbl">Global Enterprise Markets</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Portfolio Section -->
+		<section class="service-section inner-style boxed" style="padding: 70px 0 90px; background-color: #f8fafc;">
+			<div class="auto-container">
+				
+				<!-- Flagship Spotlight Showcase -->
+				<div class="flagship-card">
+					<div class="row align-items-center g-4">
+						<div class="col-lg-6">
+							<div class="flagship-badge">
+								<i class="fa-solid fa-tower-broadcast"></i> Flagship Telecom Engineering
+							</div>
+							<h2 class="flagship-title">Carrier-Grade Telecom CDR &amp; Traffic Intelligence Platform</h2>
+							<p class="flagship-desc">
+								Engineered for high-volume Tier-1 telecommunications operators experiencing severe analytical latency during peak calling hours. DVTechnic built an ultra-low-latency real-time ingestion pipeline consuming SIP signaling and Call Detail Records directly from FreeSWITCH &amp; Kamailio proxies into a distributed ClickHouse columnar cluster.
 							</p>
+
+							<!-- Measured Metrics Grid -->
+							<div class="flagship-metrics-grid">
+								<div class="flagship-metric-box">
+									<div class="val">12,500 TPS</div>
+									<div class="label">Ingestion Throughput</div>
+								</div>
+								<div class="flagship-metric-box">
+									<div class="val">&lt; 15 ms</div>
+									<div class="label">Aggregation Latency</div>
+								</div>
+								<div class="flagship-metric-box">
+									<div class="val">99.999%</div>
+									<div class="label">Cluster High-Availability</div>
+								</div>
+							</div>
+
+							<!-- Tech Stack Badges -->
+							<div style="display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 24px;">
+								<span style="background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px;">Golang</span>
+								<span style="background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px;">ClickHouse</span>
+								<span style="background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px;">FreeSWITCH</span>
+								<span style="background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px;">WebSockets</span>
+								<span style="background: #f1f5f9; color: #334155; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px;">Docker / Linux</span>
+							</div>
+
+							<div>
+								<a href="contact.html" class="theme-btn btn-style-one">
+									<span class="btn-title">Request Architecture Blueprint <i class="fa-solid fa-arrow-right"></i></span>
+								</a>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div style="border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08); background: #0b1329;">
+								<!-- Window Title Bar -->
+								<div style="background: #0f172a; border-bottom: 1px solid #1e293b; padding: 10px 16px; display: flex; align-items: center; gap: 8px;">
+									<span style="width: 10px; height: 10px; border-radius: 50%; background: #ef4444; display: inline-block;"></span>
+									<span style="width: 10px; height: 10px; border-radius: 50%; background: #f59e0b; display: inline-block;"></span>
+									<span style="width: 10px; height: 10px; border-radius: 50%; background: #10b981; display: inline-block;"></span>
+									<span style="font-size: 12px; font-weight: 600; color: #94a3b8; margin-left: 8px; font-family: monospace;">NOC Live Telemetry • Node-04</span>
+								</div>
+								<img src="images/portfolio/telecom-cdr-dashboard.jpg" alt="Carrier-Grade Telecom CDR Platform Dashboard" style="width: 100%; height: auto; display: block;">
+							</div>
 						</div>
 					</div>
 				</div>
 
+				<!-- Section Header & Filter Tabs -->
 				<div class="row">
-					<!-- Project 1 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb1.png" alt="Enterprise Supply Chain ERP">
+					<div class="col-lg-12">
+						<div class="sec-title pb-20 text-center">
+							<div class="section-sub-title">
+								<h5 class="sub-title">EXPLORE OUR DOMAIN EXPERTISE</h5>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Logistics &amp; ERP</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">Enterprise Supply Chain ERP System</a></h3>
+							<div class="section-title">
+								<h2 class="title title-anim">Featured <span>Case Studies</span> &amp; Systems</h2>
+							</div>
+							<p style="max-width: 680px; margin: 12px auto 0; color: #64748b; font-size: 15px;">
+								Discover how our cross-functional engineering teams architect, deploy, and scale high-demand systems for enterprise clients.
+							</p>
+						</div>
+
+						<!-- Filter Navigation Tabs -->
+						<div class="portfolio-filter-tabs">
+							<button type="button" class="portfolio-filter-btn active" data-filter="all">
+								<i class="fa-solid fa-border-all"></i> All Solutions
+							</button>
+							<button type="button" class="portfolio-filter-btn" data-filter="ai">
+								<i class="fa-solid fa-robot"></i> AI &amp; Autonomous Agents
+							</button>
+							<button type="button" class="portfolio-filter-btn" data-filter="telecom">
+								<i class="fa-solid fa-network-wired"></i> Telecom &amp; IoT
+							</button>
+							<button type="button" class="portfolio-filter-btn" data-filter="enterprise">
+								<i class="fa-solid fa-building"></i> Enterprise &amp; ERP
+							</button>
+							<button type="button" class="portfolio-filter-btn" data-filter="fintech">
+								<i class="fa-solid fa-wallet"></i> FinTech &amp; Mobile
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Categorized Case Studies Grid -->
+				<div class="row g-4" id="portfolio-grid">
+
+					<!-- Project 1: OpenClaw Enterprise Gateway (AI) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/services/openclaw-agents-ui.jpg" alt="OpenClaw Enterprise ChatOps Gateway">
+								<div class="portfolio-badge-float">
+									<i class="fa-solid fa-shield-cat"></i> AI &amp; ChatOps
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									Engineered a modular ERP handling 50,000+ daily orders with real-time barcode tracking, automated inventory sync, and multi-warehouse logistics routing.
+							</div>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-check-double"></i> 0% Data Leakage • 50+ Workflows
+								</div>
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">OpenClaw Autonomous ChatOps Gateway</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									On-premise enterprise AI gateway integrating local-first LLMs into Telegram &amp; Slack. Ensures full corporate data sovereignty with role-based skill execution.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> React, Node.js, PostgreSQL, Docker, Redis
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">TypeScript</span>
+									<span class="portfolio-tech-tag">OpenClaw Core</span>
+									<span class="portfolio-tech-tag">Local LLMs</span>
+									<span class="portfolio-tech-tag">Docker</span>
+									<span class="portfolio-tech-tag">Telegram API</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Production Ready</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Project 2 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb2.png" alt="Carrier-Grade Telecom Traffic Monitoring">
+					<!-- Project 2: Hermes Autonomous Agent Platform (AI) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/services/hermes-dashboard-hd.png" alt="Hermes Autonomous Agent Platform">
+								<div class="portfolio-badge-float" style="color: #a78bfa; border-color: rgba(167, 139, 250, 0.3);">
+									<i class="fa-solid fa-brain"></i> Autonomous Agent
+								</div>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Telecommunications</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">Carrier-Grade Telecom CDR Platform</a></h3>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-bolt"></i> 8x Task Speedup • 24/7 Cron
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									High-throughput Call Detail Record (CDR) ingestion platform processing 10,000+ call records per second with instant anomaly detection and automated failover.
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">Hermes Autonomous Agent with Memory</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									Custom enterprise deployment of Nous Research Hermes Agent featuring persistent FTS5 session memory, parallel subagent RPC delegation, and natural language cron jobs.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> Golang, ClickHouse, WebSockets, FreeSWITCH, Grafana
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">Python</span>
+									<span class="portfolio-tech-tag">Nous Hermes</span>
+									<span class="portfolio-tech-tag">FTS5 Memory</span>
+									<span class="portfolio-tech-tag">Modal Sandbox</span>
+									<span class="portfolio-tech-tag">Discord RPC</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Active Deployment</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Project 3 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb3.png" alt="FinTech Mobile Banking">
+					<!-- Project 3: Supply Chain ERP (Enterprise) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-enterprise">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/portfolio/portfolio-erp-logistics.jpg" alt="Enterprise Supply Chain ERP">
+								<div class="portfolio-badge-float">
+									<i class="fa-solid fa-boxes-stacked"></i> Logistics &amp; ERP
+								</div>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">FinTech &amp; Mobile</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">Multi-Currency Digital Banking App</a></h3>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-chart-line"></i> 50K+ Daily Orders • 99.7% Accuracy
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									Cross-platform mobile banking solution with biometric login, instant P2P payments, multi-currency ledger, and real-time transaction push notifications.
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">Supply Chain &amp; Multi-Warehouse ERP</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									Modular enterprise ERP managing 30+ distribution hubs with real-time barcode synchronization, automated stock reconciliation, and driver route dispatching.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> Flutter, Python FastAPI, PostgreSQL, AWS KMS
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">React</span>
+									<span class="portfolio-tech-tag">Node.js</span>
+									<span class="portfolio-tech-tag">PostgreSQL</span>
+									<span class="portfolio-tech-tag">Redis</span>
+									<span class="portfolio-tech-tag">Docker</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Production Ready</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Project 4 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb4.png" alt="Telemedicine Video Consultation">
+					<!-- Project 4: FinTech Banking App (FinTech) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-fintech">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/portfolio/portfolio-fintech-banking.jpg" alt="Multi-Currency Digital Banking App">
+								<div class="portfolio-badge-float" style="color: #60a5fa; border-color: rgba(96, 165, 250, 0.3);">
+									<i class="fa-solid fa-credit-card"></i> FinTech &amp; Mobile
+								</div>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">HealthTech</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">HIPAA-Compliant Telehealth Portal</a></h3>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-shield-halved"></i> 200K+ Users • &lt; 1s P2P
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									Secure doctor-patient video conferencing suite with integrated medical records (EMR), automated prescription generation, and end-to-end encrypted messaging.
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">Multi-Currency Digital Banking App</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									Cross-platform mobile banking solution featuring biometric face authentication, instant multi-currency P2P ledger settlements, and hardware AWS KMS security.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> Next.js, WebRTC, Node.js, MongoDB, AWS S3
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">Flutter</span>
+									<span class="portfolio-tech-tag">FastAPI</span>
+									<span class="portfolio-tech-tag">PostgreSQL</span>
+									<span class="portfolio-tech-tag">AWS KMS</span>
+									<span class="portfolio-tech-tag">PCI-DSS</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Production Ready</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Project 5 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb5.png" alt="Fleet Telematics IoT Platform">
+					<!-- Project 5: Fleet IoT Telemetry (Telecom) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-telecom">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/portfolio/portfolio-fleet-telematics.jpg" alt="Commercial Fleet IoT Telematics">
+								<div class="portfolio-badge-float" style="color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">
+									<i class="fa-solid fa-satellite-dish"></i> IoT &amp; Telematics
+								</div>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">IoT &amp; Telematics</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">Commercial Fleet IoT Telemetry</a></h3>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-gas-pump"></i> 5,000+ Trucks • -18% Fuel Waste
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									IoT data ingestion platform monitoring 5,000+ commercial transport trucks in real-time with geofencing alerts, fuel consumption analytics, and speed limit violations.
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">Commercial Fleet IoT Telematics Hub</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									High-throughput MQTT telemetry engine monitoring 5,000+ heavy transport vehicles in real-time with geofencing alerts, CAN-bus health diagnostics, and fuel logs.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> Go, MQTT, TimescaleDB, React, Docker
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">Golang</span>
+									<span class="portfolio-tech-tag">MQTT</span>
+									<span class="portfolio-tech-tag">TimescaleDB</span>
+									<span class="portfolio-tech-tag">React</span>
+									<span class="portfolio-tech-tag">Docker</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Production Ready</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Project 6 -->
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="service-single-box" style="height: 100%; display: flex; flex-direction: column;">
-							<div class="service-thumb">
-								<img src="images/inner-image/service-thumb6.png" alt="Cloud Migration & DevOps">
+					<!-- Project 6: Cloud DevOps Modernization (Enterprise) -->
+					<div class="col-lg-4 col-md-6 portfolio-item filter-enterprise">
+						<div class="portfolio-case-card">
+							<div class="portfolio-thumb-wrap">
+								<img src="images/portfolio/portfolio-cloud-devops.jpg" alt="Kubernetes Cloud Modernization">
+								<div class="portfolio-badge-float" style="color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">
+									<i class="fa-solid fa-cloud"></i> Cloud &amp; DevOps
+								</div>
 							</div>
-							<div class="services-content" style="padding: 25px 20px; display: flex; flex-direction: column; flex-grow: 1;">
-								<span style="color: #0284c7; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Cloud &amp; DevOps</span>
-								<div class="service-title" style="margin-top: 5px; margin-bottom: 12px;">
-									<h3 style="font-size: 19px;"><a href="contact.html">Kubernetes Cloud Modernization</a></h3>
+							<div class="portfolio-content-wrap">
+								<div class="portfolio-kpi-pill">
+									<i class="fa-solid fa-server"></i> -62% Cost • Zero-Downtime Deploy
 								</div>
-								<p style="color: #64748b; font-size: 14px; line-height: 1.6; flex-grow: 1;">
-									Refactored an on-premise monolithic architecture into containerized microservices deployed across AWS EKS with automated CI/CD pipelines and 60% compute cost reduction.
+								<h3 class="portfolio-title-text">
+									<a href="contact.html">Kubernetes CloudOps Modernization</a>
+								</h3>
+								<p class="portfolio-desc-text">
+									Monolith-to-microservices transformation on AWS EKS with GitOps pipelines (GitHub Actions + ArgoCD) and Terraform IaC, driving 4.2x deployment cadence.
 								</p>
-								<div style="background: #f1f5f9; padding: 10px 12px; border-radius: 6px; font-size: 12px; color: #334155; margin: 15px 0;">
-									<strong>Tech:</strong> Kubernetes, Terraform, AWS EKS, GitHub Actions
+								<div class="portfolio-tech-tags">
+									<span class="portfolio-tech-tag">Kubernetes</span>
+									<span class="portfolio-tech-tag">AWS EKS</span>
+									<span class="portfolio-tech-tag">Terraform</span>
+									<span class="portfolio-tech-tag">GitHub Actions</span>
+									<span class="portfolio-tech-tag">Prometheus</span>
 								</div>
-								<div class="service-btn" style="margin-top: auto;">
-									<a href="contact.html">Request Case Study <i class="fa-solid fa-arrow-right"></i></a>
+								<div class="portfolio-action-row">
+									<span style="font-size: 12px; color: #16a34a; font-weight: 700;">● Production Ready</span>
+									<a href="contact.html" class="portfolio-action-link">
+										Request Case Study <i class="fa-solid fa-arrow-right"></i>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</section>
@@ -307,11 +514,11 @@
 				<div class="row align-items-center">
 					<div class="col-lg-8 mb-4 mb-lg-0">
 						<h2 style="font-size: 34px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Have a Similar Project in Mind?</h2>
-						<p style="font-size: 16px; color: #cbd5e1; margin: 0;">Connect with our architecture team to discuss feasibility, technology selection, and delivery timelines.</p>
+						<p style="font-size: 16px; color: #cbd5e1; margin: 0;">Connect with our architecture team to discuss technical feasibility, technology selection, and delivery timelines.</p>
 					</div>
 					<div class="col-lg-4 text-lg-end">
-						<a href="contact.html" class="theme-btn btn-style-one" style="background: #0284c7; border-color: #0284c7;">
-							<span class="btn-title">Discuss Your Project <i class="fa-solid fa-arrow-right"></i></span>
+						<a href="contact.html" class="theme-btn btn-style-one">
+							<span class="btn-title">Discuss Your Architecture <i class="fa-solid fa-arrow-right"></i></span>
 						</a>
 					</div>
 				</div>
@@ -410,6 +617,23 @@
 		<script src="js/SplitText.js"></script>
 		<script src="js/cusor-text.js"></script>
 		<script src="js/script.js"></script>
+
+		<!-- Interactive Portfolio Filter Script -->
+		<script>
+			$(document).ready(function() {
+				$('.portfolio-filter-btn').on('click', function() {
+					$('.portfolio-filter-btn').removeClass('active');
+					$(this).addClass('active');
+					var filter = $(this).attr('data-filter');
+					if (filter === 'all') {
+						$('.portfolio-item').stop(true, true).fadeIn(300);
+					} else {
+						$('.portfolio-item').stop(true, true).hide();
+						$('.portfolio-item.filter-' + filter).stop(true, true).fadeIn(300);
+					}
+				});
+			});
+		</script>
 
 	</div>
 
