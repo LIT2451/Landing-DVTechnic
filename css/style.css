@@ -2265,6 +2265,63 @@ Scroll To Top style
     padding: 10px 25px 10px 0;
   }
 }
+
+/* === Global Theme Button Styles === */
+.theme-btn,
+.theme-btn.btn-style-one {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--text-font, inherit);
+  color: #ffffff !important;
+  background-color: #0284c7;
+  padding: 13px 28px;
+  font-weight: 700;
+  font-size: 14.5px;
+  border-radius: 9px;
+  position: relative;
+  z-index: 1;
+  transition: all 250ms ease;
+  border: 1px solid #0284c7;
+  line-height: 1.4;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+  cursor: pointer;
+}
+.theme-btn .btn-title,
+.theme-btn span,
+.theme-btn i {
+  color: #ffffff !important;
+  display: inline-flex;
+  align-items: center;
+}
+.theme-btn i {
+  margin-left: 6px;
+  font-size: 13px;
+  transition: transform 200ms ease;
+}
+.theme-btn:hover {
+  background-color: #0369a1 !important;
+  color: #ffffff !important;
+  border-color: #0369a1 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(2, 132, 199, 0.45);
+}
+.theme-btn:hover i {
+  transform: translateX(3px);
+}
+.theme-btn.btn-style-blue {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+.theme-btn.btn-style-blue:hover {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+}
+
 .main-header .header-lower .outer-box .theme-btn {
   display: inline-flex;
   align-items: center;
