@@ -11053,26 +11053,27 @@ Page Title
   background: #ffffff;
   border-bottom: 1px solid #e2e8f0;
   box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
-  padding: 36px 0 32px;
+  padding: 32px 0;
 }
 .portfolio-metric-item {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 8px 16px;
+  padding: 8px 12px;
 }
 .portfolio-metric-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
-  background: #f0f9ff;
-  border: 1px solid #bae6fd;
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: none;
+  border-radius: 0;
   color: #0284c7;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 32px;
   flex-shrink: 0;
+  line-height: 1;
 }
 .portfolio-metric-content .num {
   font-size: 26px;
@@ -11091,10 +11092,10 @@ Page Title
 /* Flagship Spotlight Card */
 .flagship-card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #f1f5f9;
   border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.04);
   margin-bottom: 60px;
   position: relative;
   overflow: hidden;
@@ -11102,17 +11103,21 @@ Page Title
 .flagship-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: #e0f2fe;
-  color: #0369a1;
-  border: 1px solid #7dd3fc;
-  padding: 5px 12px;
-  border-radius: 6px;
-  font-size: 11.5px;
+  gap: 8px;
+  background: transparent;
+  color: #0284c7;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 14px;
+}
+.flagship-badge i {
+  font-size: 15px;
+  color: #0284c7;
 }
 .flagship-title {
   font-size: 28px;
@@ -11130,24 +11135,26 @@ Page Title
 .flagship-metrics-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 24px;
 }
 .flagship-metric-box {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 12px 14px;
+  background: transparent;
+  border: none;
+  border-left: 2px solid #0284c7;
+  border-radius: 0;
+  padding: 2px 0 2px 14px;
   text-align: left;
 }
 .flagship-metric-box .val {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 800;
   color: #0284c7;
   margin-bottom: 2px;
+  line-height: 1.1;
 }
 .flagship-metric-box .label {
-  font-size: 11.5px;
+  font-size: 12px;
   color: #64748b;
   font-weight: 600;
 }
@@ -11163,7 +11170,7 @@ Page Title
 .portfolio-filter-btn {
   background: #ffffff;
   color: #475569;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #e2e8f0;
   padding: 9px 22px;
   border-radius: 25px;
   font-size: 13.5px;
@@ -11175,22 +11182,22 @@ Page Title
   gap: 8px;
 }
 .portfolio-filter-btn:hover {
-  background: #f1f5f9;
+  background: #f8fafc;
   color: #0f172a;
-  border-color: #94a3b8;
+  border-color: #cbd5e1;
 }
 .portfolio-filter-btn.active {
   background: #0284c7 !important;
   color: #ffffff !important;
   border-color: #0284c7 !important;
-  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
 }
 
 /* Portfolio Case Study Card */
 .portfolio-case-card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 14px;
+  border: 1px solid #f1f5f9;
+  border-radius: 12px;
   overflow: hidden;
   height: 100%;
   display: flex;
@@ -11199,9 +11206,9 @@ Page Title
   transition: all 250ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .portfolio-case-card:hover {
-  transform: translateY(-5px);
-  border-color: #0284c7;
-  box-shadow: 0 14px 35px rgba(2, 132, 199, 0.12);
+  transform: translateY(-4px);
+  border-color: #e2e8f0;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
 }
 .portfolio-thumb-wrap {
   position: relative;
@@ -11217,22 +11224,22 @@ Page Title
   transition: transform 400ms ease;
 }
 .portfolio-case-card:hover .portfolio-thumb-wrap img {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 .portfolio-badge-float {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(6px);
-  color: #38bdf8;
-  border: 1px solid rgba(56, 189, 248, 0.3);
-  padding: 4px 10px;
-  border-radius: 6px;
+  top: 12px;
+  left: 12px;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(4px);
+  color: #f8fafc;
+  border: none !important;
+  padding: 3px 8px;
+  border-radius: 4px;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.5px;
 }
 .portfolio-content-wrap {
   padding: 24px 22px;
@@ -11244,14 +11251,18 @@ Page Title
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #f0fdf4;
-  color: #166534;
-  border: 1px solid #bbf7d0;
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 11.5px;
+  background: transparent;
+  color: #15803d;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 12.5px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+}
+.portfolio-kpi-pill i {
+  color: #16a34a;
+  font-size: 13px;
 }
 .portfolio-title-text {
   font-size: 19px;
@@ -11283,11 +11294,11 @@ Page Title
 }
 .portfolio-tech-tag {
   background: #f1f5f9;
-  color: #334155;
+  color: #475569;
   font-size: 11px;
   font-weight: 600;
   padding: 3px 8px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .portfolio-action-row {
   margin-top: auto;
