@@ -119,17 +119,22 @@
 		</div>
 
 		<!-- Breadcrumb Section -->
-		<div class="breadcumb-area" style="background-image: url(images/inner-image/breadcumb-bg.jpg); background-size: cover; background-position: center;">
-			<div class="container">
+		<div class="breadcumb-area" style="position: relative; background: linear-gradient(135deg, rgba(7, 15, 35, 0.88) 0%, rgba(10, 25, 47, 0.82) 100%), url('images/inner-image/about-hero-bg.jpg') center/cover no-repeat; padding: 130px 0 100px;">
+			<div class="auto-container">
 				<div class="row align-items-center">
 					<div class="col-lg-12 text-center">
 						<div class="breadcumb-content">
-							<div class="breadcumb-title">
-								<h4>About DVTechnic</h4>
+							<div class="section-sub-title" style="margin-bottom: 12px;">
+								<span style="color: #38bdf8; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px;">
+									<i class="fa-regular fa-compass"></i> Engineering Leadership &amp; Global Trust
+								</span>
 							</div>
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>About Us</li>
+							<h1 style="color: #ffffff; font-size: 44px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 16px; font-family: var(--title-font);">About DVTechnic</h1>
+							<p style="color: #cbd5e1; font-size: 17px; max-width: 680px; margin: 0 auto 24px; line-height: 1.6;">Delivering mission-critical enterprise software, dedicated offshore engineering pods, and carrier-grade telecom infrastructure to partners worldwide.</p>
+							<ul style="display: inline-flex; align-items: center; gap: 10px; background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); padding: 8px 22px; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.15); list-style: none; margin: 0;">
+								<li><a href="index.html" style="color: #94a3b8; font-weight: 600; text-decoration: none; transition: color 0.3s ease;"><i class="fa-solid fa-house" style="font-size: 13px; margin-right: 4px;"></i> Home</a></li>
+								<li style="color: #64748b;">/</li>
+								<li style="color: #38bdf8; font-weight: 700;">About Us</li>
 							</ul>
 						</div>
 					</div>
@@ -137,49 +142,120 @@
 			</div>
 		</div>
 
-		<!-- About Section -->
-		<section class="about-section inner-style boxed" style="padding: 90px 0;">
+		<!-- About Section (Who We Are) -->
+		<section class="about-section" style="padding: 100px 0; background: #ffffff;">
 			<div class="auto-container">
-				<div class="row">
-					<div class="col-xl-6 col-lg-12 col-md-12">
-						<div class="about-thumb-wrapper">
-							<div class="about-thumb">
-								<figure class="reveal"><img src="images/main-home/about-thumb1.png" alt="DVTechnic Engineers"></figure>
-								<figure class="about-img reveal"><img src="images/main-home/about-thumb2.png" alt="Engineering Team"></figure>
+				<div class="row align-items-center">
+					<!-- Visual Collage Column -->
+					<div class="col-xl-6 col-lg-12 col-md-12 mb-5 mb-xl-0">
+						<div style="position: relative; max-width: 540px; margin: 0 auto;">
+							<!-- Primary Image -->
+							<div style="position: relative; z-index: 1; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);">
+								<img src="images/inner-image/about-team-primary.jpg" alt="DVTechnic Solutions Architects" style="width: 100%; height: auto; display: block; object-fit: cover;">
 							</div>
-							<div class="about-shape-dot">
-								<img src="images/main-home/about-shape2.png" alt="decor">
+							<!-- Secondary Floating Image -->
+							<div style="position: absolute; right: -25px; bottom: -35px; width: 44%; z-index: 2; border-radius: 14px; overflow: hidden; border: 5px solid #ffffff; box-shadow: 0 18px 35px rgba(2, 132, 199, 0.2);">
+								<img src="images/inner-image/about-team-secondary.jpg" alt="DVTechnic DevOps Engineering" style="width: 100%; height: auto; display: block; object-fit: cover;">
+							</div>
+							<!-- Experience Badge -->
+							<div style="position: absolute; left: -20px; top: 30px; z-index: 3; background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #ffffff; padding: 18px 24px; border-radius: 14px; box-shadow: 0 12px 28px rgba(2, 132, 199, 0.35); text-align: center;">
+								<div style="font-size: 28px; font-weight: 800; line-height: 1;">10+</div>
+								<div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;">Years Of Tech<br>Excellence</div>
 							</div>
 						</div>
 					</div>
+
+					<!-- Content Column -->
 					<div class="col-xl-6 col-lg-12 col-md-12">
-						<div class="about-right-wrapper">
-							<div class="sec-title">
-								<div class="section-sub-title">
-									<h5 class="sub-title">WHO WE ARE</h5>
+						<div style="padding-left: 15px;">
+							<div class="sec-title mb-4">
+								<div class="section-sub-title mb-2">
+									<span style="color: #0284c7; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px;">
+										<i class="fa-solid fa-circle-dot" style="font-size: 10px;"></i> WHO WE ARE
+									</span>
 								</div>
-								<div class="section-title">
-									<h1 class="title title-anim">Architecting Scalable <span>Software &amp; Telecom</span></h1>
+								<h2 style="font-family: var(--title-font); font-size: 36px; font-weight: 800; color: #0f172a; line-height: 1.25; margin-bottom: 20px;">
+									Architecting Scalable <span style="color: #0284c7;">Software &amp; Telecom</span> Solutions
+								</h2>
+								<p style="color: #475569; font-size: 16px; line-height: 1.7; margin-bottom: 15px;">
+									DVTechnic was founded with an uncompromising mission: to provide global enterprises, technology innovators, and telecom carriers with senior software engineering capabilities and resilient infrastructure.
+								</p>
+								<p style="color: #64748b; font-size: 15px; line-height: 1.7; margin-bottom: 25px;">
+									Headquartered in Vietnam's premier tech corridor, we bridge top-tier Vietnamese engineering pedigree with international project management standards. We empower partners across North America, Europe, Japan, and Australia to accelerate development velocity while maintaining ironclad IP security.
+								</p>
+							</div>
+
+							<!-- Feature Matrix -->
+							<div class="row g-3">
+								<div class="col-sm-6">
+									<div style="background: #f8fafc; padding: 16px 18px; border-radius: 10px; border-left: 3px solid #0284c7; height: 100%;">
+										<div style="font-weight: 700; color: #0f172a; font-size: 15px; display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+											<i class="fa-solid fa-cubes" style="color: #0284c7;"></i> Enterprise Software
+										</div>
+										<p style="color: #64748b; font-size: 13px; margin: 0; line-height: 1.5;">Cloud-native microservices, modern web apps, and API ecosystems.</p>
+									</div>
 								</div>
-								<div class="section-desc">
-									<p class="description">
-										DVTechnic was founded with a clear mission: to provide global enterprises, tech startups, and telecom operators with senior software engineering capabilities and resilient infrastructure solutions.
-									</p>
-									<p class="description" style="margin-top: 15px;">
-										We combine rigorous computer science fundamentals, modern agile development frameworks, and dedicated offshore center operations to help our partners accelerate time-to-market while reducing operational overhead.
-									</p>
+								<div class="col-sm-6">
+									<div style="background: #f8fafc; padding: 16px 18px; border-radius: 10px; border-left: 3px solid #2563eb; height: 100%;">
+										<div style="font-weight: 700; color: #0f172a; font-size: 15px; display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+											<i class="fa-solid fa-tower-broadcast" style="color: #2563eb;"></i> Telecom Systems
+										</div>
+										<p style="color: #64748b; font-size: 13px; margin: 0; line-height: 1.5;">Carrier-grade VoIP, SIP trunking, WebRTC, and real-time billing.</p>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div style="background: #f8fafc; padding: 16px 18px; border-radius: 10px; border-left: 3px solid #0284c7; height: 100%;">
+										<div style="font-weight: 700; color: #0f172a; font-size: 15px; display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+											<i class="fa-solid fa-people-group" style="color: #0284c7;"></i> Dedicated ODC Pods
+										</div>
+										<p style="color: #64748b; font-size: 13px; margin: 0; line-height: 1.5;">Fully managed offshore teams under agile tech leadership.</p>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div style="background: #f8fafc; padding: 16px 18px; border-radius: 10px; border-left: 3px solid #2563eb; height: 100%;">
+										<div style="font-weight: 700; color: #0f172a; font-size: 15px; display: flex; align-items: center; gap: 8px; margin-bottom: 5px;">
+											<i class="fa-solid fa-shield-check" style="color: #2563eb;"></i> 99.99% Reliability
+										</div>
+										<p style="color: #64748b; font-size: 13px; margin: 0; line-height: 1.5;">Rigorous SLAs, SOC2-aligned standards, and 24/7 monitoring.</p>
+									</div>
 								</div>
 							</div>
-							<div class="about-item-box">
-								<ul class="about-list">
-									<li><img src="images/main-home/setting-icon.png" alt="icon"> Enterprise Software Engineering</li>
-									<li><img src="images/main-home/setting-icon.png" alt="icon"> Telecom &amp; VoIP Infrastructure</li>
-								</ul>
-								<ul class="about-list">
-									<li><img src="images/main-home/setting-icon.png" alt="icon"> Dedicated Offshore Teams</li>
-									<li><img src="images/main-home/setting-icon.png" alt="icon"> 99.9% High Availability SLAs</li>
-								</ul>
-							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Performance Metrics Counter Section -->
+		<section style="padding: 70px 0; background: linear-gradient(135deg, #070f23 0%, #0c1838 100%); color: #ffffff;">
+			<div class="auto-container">
+				<div class="row g-4 text-center">
+					<div class="col-lg-3 col-sm-6">
+						<div style="padding: 30px 20px; background: rgba(255, 255, 255, 0.04); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px);">
+							<div style="font-size: 42px; font-weight: 800; color: #38bdf8; font-family: var(--title-font); line-height: 1; margin-bottom: 10px;">150+</div>
+							<h5 style="color: #ffffff; font-size: 16px; font-weight: 700; margin-bottom: 6px;">Delivered Projects</h5>
+							<p style="color: #94a3b8; font-size: 13px; margin: 0;">Enterprise web, cloud &amp; telecom solutions</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div style="padding: 30px 20px; background: rgba(255, 255, 255, 0.04); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px);">
+							<div style="font-size: 42px; font-weight: 800; color: #38bdf8; font-family: var(--title-font); line-height: 1; margin-bottom: 10px;">99.99%</div>
+							<h5 style="color: #ffffff; font-size: 16px; font-weight: 700; margin-bottom: 6px;">System Availability</h5>
+							<p style="color: #94a3b8; font-size: 13px; margin: 0;">Carrier-grade uptime &amp; fault tolerance</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div style="padding: 30px 20px; background: rgba(255, 255, 255, 0.04); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px);">
+							<div style="font-size: 42px; font-weight: 800; color: #38bdf8; font-family: var(--title-font); line-height: 1; margin-bottom: 10px;">98%</div>
+							<h5 style="color: #ffffff; font-size: 16px; font-weight: 700; margin-bottom: 6px;">Client Retention</h5>
+							<p style="color: #94a3b8; font-size: 13px; margin: 0;">Long-term partnerships across US, EU &amp; JP</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div style="padding: 30px 20px; background: rgba(255, 255, 255, 0.04); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px);">
+							<div style="font-size: 42px; font-weight: 800; color: #38bdf8; font-family: var(--title-font); line-height: 1; margin-bottom: 10px;">50+</div>
+							<h5 style="color: #ffffff; font-size: 16px; font-weight: 700; margin-bottom: 6px;">Senior Engineers</h5>
+							<p style="color: #94a3b8; font-size: 13px; margin: 0;">Full-stack, telecom &amp; DevOps specialists</p>
 						</div>
 					</div>
 				</div>
@@ -187,39 +263,52 @@
 		</section>
 
 		<!-- Mission & Core Values Section -->
-		<section style="padding: 80px 0; background-color: #f8fafc;">
+		<section style="padding: 90px 0; background-color: #f8fafc;">
 			<div class="auto-container">
 				<div class="sec-title text-center pb-30">
-					<div class="section-sub-title">
-						<h5 class="sub-title">OUR PRINCIPLES</h5>
+					<div class="section-sub-title mb-2">
+						<span style="color: #0284c7; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px;">
+							<i class="fa-solid fa-circle-dot" style="font-size: 10px;"></i> OUR PRINCIPLES
+						</span>
 					</div>
 					<div class="section-title">
-						<h1 class="title">Mission &amp; <span>Core Values</span></h1>
+						<h2 style="font-family: var(--title-font); font-size: 36px; font-weight: 800; color: #0f172a;">
+							Mission &amp; <span style="color: #0284c7;">Core Values</span>
+						</h2>
 					</div>
+					<p style="color: #64748b; font-size: 16px; max-width: 650px; margin: 12px auto 0;">The foundational values guiding our software craft, architecture decisions, and client partnerships.</p>
 				</div>
 
-				<div class="row">
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div style="background: #ffffff; padding: 35px 25px; border-radius: 12px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.04); border-top: 4px solid #0284c7;">
-							<div style="font-size: 32px; color: #0284c7; margin-bottom: 15px;"><i class="fa-solid fa-compass-drafting"></i></div>
-							<h4 style="font-weight: 700; color: #0f172a; margin-bottom: 12px;">Precision Engineering</h4>
-							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">We write maintainable, modular, and well-documented code adhering to international design patterns and clean architecture standards.</p>
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6">
+						<div style="background: #ffffff; padding: 35px 24px; border-radius: 14px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid #0284c7; transition: transform 0.3s ease;">
+							<div style="font-size: 32px; color: #0284c7; margin-bottom: 16px;"><i class="fa-solid fa-compass-drafting"></i></div>
+							<h4 style="font-weight: 700; color: #0f172a; font-size: 18px; margin-bottom: 12px;">Precision Engineering</h4>
+							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">We write maintainable, modular, and thoroughly tested code adhering to domain-driven design and modern clean architectures.</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div style="background: #ffffff; padding: 35px 25px; border-radius: 12px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.04); border-top: 4px solid #2563eb;">
-							<div style="font-size: 32px; color: #2563eb; margin-bottom: 15px;"><i class="fa-solid fa-lock"></i></div>
-							<h4 style="font-weight: 700; color: #0f172a; margin-bottom: 12px;">Absolute IP Security</h4>
-							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">Every project is protected under comprehensive legal Non-Disclosure Agreements (NDAs). Your source code and data remain your exclusive intellectual property.</p>
+					<div class="col-lg-3 col-md-6">
+						<div style="background: #ffffff; padding: 35px 24px; border-radius: 14px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid #2563eb; transition: transform 0.3s ease;">
+							<div style="font-size: 32px; color: #2563eb; margin-bottom: 16px;"><i class="fa-solid fa-lock"></i></div>
+							<h4 style="font-weight: 700; color: #0f172a; font-size: 18px; margin-bottom: 12px;">Absolute IP Security</h4>
+							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">Every partnership is protected under strict international NDAs. Isolated repositories, encrypted networks, and SOC2/ISO aligned procedures.</p>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div style="background: #ffffff; padding: 35px 25px; border-radius: 12px; height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.04); border-top: 4px solid #0284c7;">
-							<div style="font-size: 32px; color: #0284c7; margin-bottom: 15px;"><i class="fa-solid fa-users-viewfinder"></i></div>
-							<h4 style="font-weight: 700; color: #0f172a; margin-bottom: 12px;">Agile Collaboration</h4>
-							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">Direct daily syncs with bilingual tech leads, bi-weekly demo releases, and total visibility via Jira, Git, and automated test dashboards.</p>
+					<div class="col-lg-3 col-md-6">
+						<div style="background: #ffffff; padding: 35px 24px; border-radius: 14px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid #0284c7; transition: transform 0.3s ease;">
+							<div style="font-size: 32px; color: #0284c7; margin-bottom: 16px;"><i class="fa-solid fa-users-viewfinder"></i></div>
+							<h4 style="font-weight: 700; color: #0f172a; font-size: 18px; margin-bottom: 12px;">Radical Transparency</h4>
+							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">Daily syncs with bilingual tech leads, 2-week demo releases, and total real-time visibility through Jira, GitHub, and Slack.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div style="background: #ffffff; padding: 35px 24px; border-radius: 14px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border-top: 4px solid #2563eb; transition: transform 0.3s ease;">
+							<div style="font-size: 32px; color: #2563eb; margin-bottom: 16px;"><i class="fa-solid fa-handshake-angle"></i></div>
+							<h4 style="font-weight: 700; color: #0f172a; font-size: 18px; margin-bottom: 12px;">Long-Term Value</h4>
+							<p style="color: #64748b; font-size: 14px; line-height: 1.7; margin: 0;">We build software designed for horizontal scale and minimal technical debt, ensuring low maintenance overhead for years to come.</p>
 						</div>
 					</div>
 				</div>
@@ -227,47 +316,52 @@
 		</section>
 
 		<!-- Engineering Lifecycle Workflow -->
-		<section style="padding: 90px 0; background: #ffffff;">
+		<section style="padding: 95px 0; background: #ffffff;">
 			<div class="auto-container">
 				<div class="sec-title text-center pb-30">
-					<div class="section-sub-title">
-						<h5 class="sub-title">HOW WE OPERATE</h5>
+					<div class="section-sub-title mb-2">
+						<span style="color: #0284c7; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px;">
+							<i class="fa-solid fa-circle-dot" style="font-size: 10px;"></i> HOW WE OPERATE
+						</span>
 					</div>
 					<div class="section-title">
-						<h1 class="title">Our <span>Software Development</span> Lifecycle</h1>
+						<h2 style="font-family: var(--title-font); font-size: 36px; font-weight: 800; color: #0f172a;">
+							Our <span>Software Development</span> Lifecycle
+						</h2>
 					</div>
+					<p style="color: #64748b; font-size: 16px; max-width: 650px; margin: 12px auto 0;">Structured engineering practices that turn complex requirements into high-performance software with zero surprises.</p>
 				</div>
 
-				<div class="row">
-					<div class="col-lg-3 col-md-6 mb-4 text-center">
-						<div style="padding: 30px 20px; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1; height: 100%;">
-							<div style="width: 50px; height: 50px; line-height: 50px; border-radius: 50%; background: #0284c7; color: #ffffff; font-weight: 800; font-size: 18px; margin: 0 auto 15px;">01</div>
-							<h5 style="font-weight: 700; color: #0f172a; margin-bottom: 10px;">Discovery &amp; Spec</h5>
-							<p style="color: #64748b; font-size: 13px; line-height: 1.6; margin: 0;">Technical feasibility assessment, system architecture design, and sprint roadmap planning.</p>
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6 text-center">
+						<div style="padding: 35px 22px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; height: 100%; transition: all 0.3s ease;">
+							<div style="width: 54px; height: 54px; line-height: 54px; border-radius: 50%; background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #ffffff; font-weight: 800; font-size: 19px; margin: 0 auto 18px; box-shadow: 0 8px 20px rgba(2, 132, 199, 0.3);">01</div>
+							<h5 style="font-weight: 700; color: #0f172a; font-size: 17px; margin-bottom: 12px;">Discovery &amp; Blueprint</h5>
+							<p style="color: #64748b; font-size: 13.5px; line-height: 1.6; margin: 0;">Deep requirements breakdown, cloud architecture design, system sizing, and sprint milestone scheduling.</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mb-4 text-center">
-						<div style="padding: 30px 20px; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1; height: 100%;">
-							<div style="width: 50px; height: 50px; line-height: 50px; border-radius: 50%; background: #2563eb; color: #ffffff; font-weight: 800; font-size: 18px; margin: 0 auto 15px;">02</div>
-							<h5 style="font-weight: 700; color: #0f172a; margin-bottom: 10px;">Sprint Execution</h5>
-							<p style="color: #64748b; font-size: 13px; line-height: 1.6; margin: 0;">Continuous 2-week Agile sprints with clean code commits, peer code reviews, and unit test gates.</p>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div style="padding: 35px 22px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; height: 100%; transition: all 0.3s ease;">
+							<div style="width: 54px; height: 54px; line-height: 54px; border-radius: 50%; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: #ffffff; font-weight: 800; font-size: 19px; margin: 0 auto 18px; box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);">02</div>
+							<h5 style="font-weight: 700; color: #0f172a; font-size: 17px; margin-bottom: 12px;">Agile Sprint Delivery</h5>
+							<p style="color: #64748b; font-size: 13.5px; line-height: 1.6; margin: 0;">2-week continuous delivery cycles, daily standups, clean code commits, and mandatory peer code reviews.</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mb-4 text-center">
-						<div style="padding: 30px 20px; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1; height: 100%;">
-							<div style="width: 50px; height: 50px; line-height: 50px; border-radius: 50%; background: #0284c7; color: #ffffff; font-weight: 800; font-size: 18px; margin: 0 auto 15px;">03</div>
-							<h5 style="font-weight: 700; color: #0f172a; margin-bottom: 10px;">Quality Assurance</h5>
-							<p style="color: #64748b; font-size: 13px; line-height: 1.6; margin: 0;">Automated regression testing, performance profiling, security vulnerability audits, and load testing.</p>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div style="padding: 35px 22px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; height: 100%; transition: all 0.3s ease;">
+							<div style="width: 54px; height: 54px; line-height: 54px; border-radius: 50%; background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #ffffff; font-weight: 800; font-size: 19px; margin: 0 auto 18px; box-shadow: 0 8px 20px rgba(2, 132, 199, 0.3);">03</div>
+							<h5 style="font-weight: 700; color: #0f172a; font-size: 17px; margin-bottom: 12px;">QA &amp; Security Audits</h5>
+							<p style="color: #64748b; font-size: 13.5px; line-height: 1.6; margin: 0;">Automated regression test suites, penetration checks, load stress testing, and vulnerability compliance gates.</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 mb-4 text-center">
-						<div style="padding: 30px 20px; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1; height: 100%;">
-							<div style="width: 50px; height: 50px; line-height: 50px; border-radius: 50%; background: #2563eb; color: #ffffff; font-weight: 800; font-size: 18px; margin: 0 auto 15px;">04</div>
-							<h5 style="font-weight: 700; color: #0f172a; margin-bottom: 10px;">Deploy &amp; 24/7 SLA</h5>
-							<p style="color: #64748b; font-size: 13px; line-height: 1.6; margin: 0;">Zero-downtime CI/CD deployment, cloud monitoring, and dedicated tier-3 technical support.</p>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div style="padding: 35px 22px; background: #f8fafc; border-radius: 14px; border: 1px solid #e2e8f0; height: 100%; transition: all 0.3s ease;">
+							<div style="width: 54px; height: 54px; line-height: 54px; border-radius: 50%; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: #ffffff; font-weight: 800; font-size: 19px; margin: 0 auto 18px; box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);">04</div>
+							<h5 style="font-weight: 700; color: #0f172a; font-size: 17px; margin-bottom: 12px;">Deploy &amp; 24/7 SLA</h5>
+							<p style="color: #64748b; font-size: 13.5px; line-height: 1.6; margin: 0;">Zero-downtime CI/CD container rollout, real-time observability dashboards, and dedicated tier-3 support.</p>
 						</div>
 					</div>
 				</div>
@@ -275,16 +369,16 @@
 		</section>
 
 		<!-- Call to Action Banner -->
-		<section style="padding: 70px 0; background: linear-gradient(135deg, #0a192f 0%, #1e3a8a 100%); color: #ffffff;">
+		<section style="padding: 75px 0; background: linear-gradient(135deg, #070f23 0%, #1e3a8a 100%); color: #ffffff;">
 			<div class="auto-container">
 				<div class="row align-items-center">
 					<div class="col-lg-8 mb-4 mb-lg-0">
-						<h2 style="font-size: 34px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Looking for a Dependable Software Partner?</h2>
-						<p style="font-size: 16px; color: #cbd5e1; margin: 0;">Get in touch with our solutions team to receive an architecture consultation and project estimate.</p>
+						<h2 style="font-size: 34px; font-weight: 800; color: #ffffff; margin-bottom: 12px; font-family: var(--title-font);">Looking for a Dependable Engineering Partner?</h2>
+						<p style="font-size: 16px; color: #cbd5e1; margin: 0;">Connect with our solutions architects to receive an architecture review and tailored project roadmap.</p>
 					</div>
 					<div class="col-lg-4 text-lg-end">
-						<a href="contact.html" class="theme-btn btn-style-one" style="background: #0284c7; border-color: #0284c7;">
-							<span class="btn-title">Talk to an Engineer <i class="fa-solid fa-arrow-right"></i></span>
+						<a href="contact.html" class="theme-btn btn-style-one" style="background: #0284c7; border-color: #0284c7; padding: 15px 32px; border-radius: 8px;">
+							<span class="btn-title" style="color: #ffffff; font-weight: 700;">Talk to an Engineer <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></span>
 						</a>
 					</div>
 				</div>
