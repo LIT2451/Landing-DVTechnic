@@ -1878,13 +1878,13 @@ Scroll To Top style
   }
 }
 .main-header .header-lower.style_three .main-box {
-  margin: 0 20px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(7, 16, 35, 0.4);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-radius: 12px;
-  padding: 6px 20px;
+  margin: 0 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-radius: 0;
+  padding: 12px 0;
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .main-header .header-lower.style_three .main-box {
@@ -1907,39 +1907,50 @@ Scroll To Top style
   }
 }
 .main-header .header-lower.style_three .main-box .logo-box {
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .main-header .header-lower.style_three .main-menu .navigation {
-  background: rgba(15, 23, 42, 0.65);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 35px;
-  padding: 4px 6px;
-  display: inline-flex;
-  align-items: center;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 .main-header .header-lower.style_three .main-menu .navigation > li {
-  margin: 0 2px;
+  margin: 0 8px;
 }
 .main-header .header-lower.style_three .main-menu .navigation > li > a {
-  color: #e2e8f0;
-  padding: 8px 22px;
-  font-size: 15px;
+  color: #ffffff;
+  padding: 10px 16px;
+  font-size: 16px;
   font-weight: 600;
-  border-radius: 25px;
+  background: transparent;
+  border-radius: 0;
+  position: relative;
   transition: all 0.25s ease;
 }
 .main-header .header-lower.style_three .main-menu .navigation > li.current > a {
-  background: #0284c7;
-  color: #ffffff;
-  border-radius: 25px;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+  color: #38bdf8;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: 700;
+}
+.main-header .header-lower.style_three .main-menu .navigation > li.current > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  right: 16px;
+  height: 2px;
+  background: #38bdf8;
+  border-radius: 2px;
 }
 .main-header .header-lower.style_three .main-menu .navigation > li > a:hover {
-  background: rgba(255, 255, 255, 0.12);
-  color: #ffffff;
-  border-radius: 25px;
+  background: transparent;
+  color: #38bdf8;
+  border-radius: 0;
 }
 .main-header .header-lower.style_three .main-menu .navigation li ul li a {
   color: var(--bg-theme-color1);
