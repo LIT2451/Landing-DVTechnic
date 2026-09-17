@@ -61,8 +61,8 @@ Tags:  agency, ai, business, chatgpt, cyber security, education, it agency, it s
   --theme-color-black-rgb: 0, 0, 0;
   --theme-color1: #09001D;
   --theme-color1-rgb: 34, 36, 41;
-  --theme-color2: #3F00FF;
-  --theme-color2-rgb: 255, 170, 23;
+  --theme-color2: #0284c7;
+  --theme-color2-rgb: 2, 132, 199;
   --theme-color3: #E0FFF1;
   --theme-color4: #E3F0FF;
   --theme-bg-color1:#F8F9F5;
@@ -1878,9 +1878,13 @@ Scroll To Top style
   }
 }
 .main-header .header-lower.style_three .main-box {
-  margin: 0 23px 0;
-  border-bottom: 1px solid rgba(248, 249, 245, 0.3098039216);
-  backdrop-filter: blur(4px);
+  margin: 0 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(7, 16, 35, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 6px 20px;
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .main-header .header-lower.style_three .main-box {
@@ -1903,13 +1907,39 @@ Scroll To Top style
   }
 }
 .main-header .header-lower.style_three .main-box .logo-box {
-  padding: 20px 0 20px 0;
+  padding: 10px 0;
 }
 .main-header .header-lower.style_three .main-menu .navigation {
-  background: transparent;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 35px;
+  padding: 4px 6px;
+  display: inline-flex;
+  align-items: center;
 }
-.main-header .header-lower.style_three .main-menu .navigation li a {
-  color: var(--theme-color-white);
+.main-header .header-lower.style_three .main-menu .navigation > li {
+  margin: 0 2px;
+}
+.main-header .header-lower.style_three .main-menu .navigation > li > a {
+  color: #e2e8f0;
+  padding: 8px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.25s ease;
+}
+.main-header .header-lower.style_three .main-menu .navigation > li.current > a {
+  background: #0284c7;
+  color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+}
+.main-header .header-lower.style_three .main-menu .navigation > li > a:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border-radius: 25px;
 }
 .main-header .header-lower.style_three .main-menu .navigation li ul li a {
   color: var(--bg-theme-color1);
@@ -1925,8 +1955,10 @@ Scroll To Top style
   position: relative;
 }
 .main-header .logo img {
-  max-width: 170px;
+  max-width: 260px;
+  max-height: 54px;
   height: auto;
+  object-fit: contain;
 }
 .main-header .main-box {
   align-items: center;
@@ -1998,12 +2030,12 @@ Scroll To Top style
   background: var(--theme-color2);
 }
 .main-menu .navigation > li:last-child a:hover {
-  border-radius: 0 10px 10px 0;
+  border-radius: 8px;
 }
 .main-menu .navigation > li.current > a {
   background: var(--theme-color2);
   color: var(--theme-color-white);
-  border-radius: 10px 0 0 10px;
+  border-radius: 8px;
 }
 .main-menu .navigation > li.dropdown > a:after {
   content: "\f107";
